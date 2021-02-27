@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Подключение Bootstrap</title>
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/styles-hexlet.css">
+
+</head>
+<body>
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<div class="nav-container container-fluid">
+		<div class="container-fluid nav d-flex justify-content-center">
+			<nav class="nav nav-pills flex-column flex-sm-row">
+				<a class="flex-sm-fill text-sm-center nav-link d-flex align-items-center justify-content-center" href="#">ГЛАВНАЯ</a>
+				<a class="flex-sm-fill text-sm-center nav-link d-flex align-items-center justify-content-center" href="#">НОВОСТИ</a>
+				<a class="flex-sm-fill text-sm-center nav-link d-flex align-items-center justify-content-center" href="#">ВИКИПЕДИЯ</a>
+				<a class="flex-sm-fill text-sm-center nav-link d-flex align-items-center justify-content-center" href="#">СТАТИСТИКА</a>
+				<a class="flex-sm-fill text-sm-center nav-link d-flex align-items-center justify-content-center" href="#">ФОРУМ</a>
+				<a class="flex-sm-fill text-sm-center nav-link d-flex align-items-center justify-content-center" href="#">ПРАВИЛА</a>
+  			</nav>
+		</div>
+	</div>
+
+	<div class="logo-container container-fluid"> 
+		<div class="container-fluid logos d-flex align-items-center flex-column bd-highlight mb-3 justify-content-center">
+			<div class="logo1 container-fluid justify-content-center">
+				<div class="logo container-fluid">
+					<img src="./icons/Без имени-1.png" class="img-fluid" alt="logo">
+				</div>
+			</div>
+			<div class="logo2 container-fluid justify-content-center">
+				<div class="sublogo container-fluid">
+					<img src="./icons/саб лого.png" class="img-fluid" alt="sublogo">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="userbar-container container-fluid"> 
+		<div class="container-fluid userbar d-flex bd-highlight mb-3 align-items-center justify-content-center">
+			<div class="login d-flex container-fluid justify-content-center">
+				<button class="button1">Регистрация</button>
+				<button class="button2">Вход</button>
+			</div>
+			<div class="user container-fluid d-flex justify-content-center align-items-center">
+				<div class="user-notification">
+					<div class="notification-icon"></div>
+				</div>
+				<div class="mail">
+					<div class="mail-icon"></div>			
+				</div>
+				<div class="user-avatar">
+					<div class="user-icon">E</div>
+				</div>
+			</div>
+			<div class="latest-news container-fluid d-flex justify-content-center">
+				<div class="news container-fluid d-flex justify-content-center">
+					<div class="news-icon"></div>
+					<div class="latest-news-text  container-fluid d-flex justify-content-start align-items-center">
+						<div class="latest-news-header">
+							<p>Последняя новость</p>
+							<p class="date">Февраль <span class="latest-news-date">20.02</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-container container-fluid">
+		<div class="content-container d-flex bd-highlight">
+			<div class="news-container container-fluid p-2 flex-fill bd-highlight">
+				<div class="news-header d-flex align-items-center">
+					<div class="news-date-badge d-flex justify-content-center align-items-center"><p>20<br>фев</p></div>
+					<div class="news-atributes">
+						<div class="news-title d-flex justify-content-start align-items-center">
+							<p>Заголовок новости</p>
+						</div>
+						<div class="attributes-container d-flex justify-content-start bd-highlight">
+							<div class="attribute-author-container d-flex p-2 flex-shrink-1 bd-highlight justify-content-start align-items-center container-fluid">
+								<div class="author-icon"></div>
+								<p>Автор</p>
+							</div>
+							<div class="attribute-date-container d-flex p-2 w-100 bd-highlight justify-content-start align-items-center container-fluid">
+								<div class="date-icon"></div>
+								<p>20 февраля, 2021</p>
+							</div>
+							<div class="attribute-comment-container d-flex p-2 w-100 bd-highlight justify-content-start align-items-center container-fluid">
+								<div class="comments-icon"></div>
+								<p>12 комментариев</p>
+							</div>
+						</div>	
+					</div>
+					<div class="news-user-avatar d-flex justify-content-center align-items-center"><p>avatar</p></div>
+				</div>
+				<div class="news-preview"></div>
+				<div class="news-description"></div>
+				<div class="news-button"></div>
+			</div>
+			<div class="side-bar-container container-fluid p-2 flex-fill bd-highlight">
+				<div class="server-status-container"></div>
+				<div class="server-admin-container"></div>
+				<div class="server-updates-container"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

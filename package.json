@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-page",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "rfs": "^9.0.3"
+  }
+}
